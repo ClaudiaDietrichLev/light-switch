@@ -14,7 +14,6 @@ main {
 
 
 .body-class {
-    margin:auto;
     background-color: white;
     transition-property: background-color;
     transition-duration: 2500ms;

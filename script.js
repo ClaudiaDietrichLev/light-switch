@@ -8,7 +8,11 @@ btn.addEventListener("click", function() {
 const bodyElement = document.querySelector("body");
 
 bodyElement.addEventListener("click", function() {
-    title.textContent = "Good Night";
+    console.log(title.textContent)
+    if (title.textContent === "Good Morning") {
+        title.textContent = "Good Night";
+
+    }else {title.textContent = "Good Morning";}
     bodyElement.classList.toggle("body-switch")
 })
 
