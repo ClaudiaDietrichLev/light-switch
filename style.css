@@ -1,0 +1,40 @@
+*,
+*.before,
+*.after {
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.body-class {
+    margin:auto;
+    background-color: white;
+    transition-property: background-color;
+    transition-duration: 2500ms;
+}
+
+.body-switch {
+    background-color: black;
+}
+
+.btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    padding: 1rem;
+    color: black;
+    border: 6px solid black;
+}
+
+.btn-switch {
+    color: white;
+    background-color: black;
+    border-color: white;
+    box-shadow: 0px 0px 16px 3px yellow;
+}
